@@ -7,7 +7,7 @@
 
 body
 {
-    width: 80%;
+    width: 92%;
     margin: auto;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
@@ -51,6 +51,11 @@ nav a:hover
 {
     color: var(--blue-perso);
     border-top: 2px solid var(--blue-perso);
+}
+
+.top-container > h2
+{
+    font-weight: normal;
 }
 
 .form-search
@@ -215,6 +220,7 @@ article > a, div > a
 .display-more-link
 {
     margin-left: 5%;
+    font-weight: bold;
 }
 
 article > h2
@@ -372,7 +378,6 @@ aside
 
 .activities-section
 {
-    /*height: 650px;*/
     margin-top: 5%;
 }
 
@@ -399,14 +404,16 @@ aside
 
 .activities-widget img
 {
-    height: 90%;
+    height: 87%;
 }
 
 .activities-infos-title
 {
     display: flex;
     margin-left: 10%;
-    align-items: center;   
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: auto;
 }
 
 footer
@@ -579,6 +586,12 @@ footer
         margin-right: 4%;
     }
 
+    .form-search
+    {
+        width: 90%;
+        margin: auto;
+    }
+
     input 
     {
         width: 82%;
@@ -688,6 +701,13 @@ footer
     .activities-widget
     {
         width: 80%;
+        height: 275px;
+    }
+
+    .activities-infos-title
+    {
+        margin-top: 15px;
+        margin-bottom: 0;
     }
 
     footer 
